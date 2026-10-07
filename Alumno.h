@@ -21,7 +21,7 @@ public:
     Alumno(std::string ID, std::string Nombre, std::string Apellidos);
     //Matricula en asignatura
     bool matricula(std::string asignatura);
-    //Escribe lista asignaturas[
+    //Escribe lista asignaturas
     void print();
     virtual ~Alumno();
 };
